@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MantenedorEstudiantes.Vistas.ListaEstudiantes"
+             Title="ListaEstudiantes">
+    <ScrollView>
+        <Grid Padding="10" RowSpacing="10" ColumnSpacing="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="155" />
+            </Grid.ColumnDefinitions>
+
+            <SearchBar Placeholder="Buscar..." 
+           x:Name="FiltroSearchBar" 
+           Grid.Row="0" 
+           Grid.Column="0" 
+           TextChanged="FiltroSearchBar_TextChanged" />
+
+            <Button Text="Agregar estudiante" 
+                    x:Name="NuevoEstudianteBoton" 
+                    Grid.Row="0" 
+                    Grid.Column="1" 
+                    Clicked="NuevoEstudianteBtn_Clicked" />
+            <CollectionView x:Name="ColeccionDeEstudiantes"
+                            ItemsSource="{Binding ListadoEstudiantes}"
+                            Grid.Row="1"
+                            Grid.ColumnSpan="2">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid ColumnSpacing="10" Padding="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.RowSpan="2"
+                               Source="nino.png"
+                               Aspect="AspectFill"
+                               HeightRequest="60"
+                               WidthRequest="60"/>
+                            <Label Grid.Column="1"
+                               Grid.Row="0"
+                               Text="{Binding NombreCompleto}"
+                               FontAttributes="Bold"
+                               FontSize="20"/>
+                            <Label Grid.Column="1"
+                               Grid.Row="1"
+                               Text="{Binding curso.Nombre}"/> 
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </Grid>
+    </ScrollView>
+</ContentPage>
