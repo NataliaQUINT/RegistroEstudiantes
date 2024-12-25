@@ -39,6 +39,7 @@ public partial class ListaEstudiantes : ContentPage
         else 
         {
             ColeccionDeEstudiantes.ItemsSource = ListadoEstudiantes; // si el buscador esta vacio .. trae todos los elementos del listado
+            
         }
     }
     private async void NuevoEstudianteBtn_Clicked(object sender, EventArgs e) // cuando pinchan el boton Nuevo Estudiante

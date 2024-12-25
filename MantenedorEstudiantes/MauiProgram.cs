@@ -10,19 +10,17 @@ namespace MantenedorEstudiantes
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
-            builder
-                .UseMauiApp<App>()
-                .ConfigureFonts(fonts =>
+            builder.UseMauiApp<App>().ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
             Registrar();
-            // aqui trataste de meter cosas del otro proyecto y no tienen nada que ver fijate primero donde estas trabajando antes de remplazar los codigos
+            
             return builder.Build();
         }
 
@@ -43,10 +41,12 @@ namespace MantenedorEstudiantes
                 client.Child("Cursos").PostAsync(new Curso { Nombre = "7° Básico" });
                 client.Child("Cursos").PostAsync(new Curso { Nombre = "8° Básico" });
                 client.Child("Cursos").PostAsync(new Curso { Nombre = "1ero Medio" });
-                client.Child("Cursos").PostAsync(new Curso { Nombre = "2do Medio"  });
+                client.Child("Cursos").PostAsync(new Curso { Nombre = "2do Medio" });
                 client.Child("Cursos").PostAsync(new Curso { Nombre = "3ero Medio" });
-                client.Child("Cursos").PostAsync(new Curso { Nombre = "4to Medio"  });
+                client.Child("Cursos").PostAsync(new Curso { Nombre = "4to Medio" });
+               
             }
+
         }
     }
 }
