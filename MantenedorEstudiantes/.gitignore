@@ -1,0 +1,12 @@
+# Excluir carpetas de Visual Studio
+.vs/
+
+# Excluir carpetas de compilación
+bin/
+obj/
+
+# Opcionales adicionales para proyectos .NET
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
