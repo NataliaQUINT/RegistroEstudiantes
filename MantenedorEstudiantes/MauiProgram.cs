@@ -22,6 +22,7 @@ namespace MantenedorEstudiantes
     		builder.Logging.AddDebug();
 #endif
             Registrar();
+            // aqui trataste de meter cosas del otro proyecto y no tienen nada que ver fijate primero donde estas trabajando antes de remplazar los codigos
             return builder.Build();
         }
 
