@@ -21,6 +21,8 @@
         <Entry Placeholder="Edad"
             x:Name="EdadEntry"
                Keyboard="Numeric"/>
+        <Label Text="¿Activo?" />
+        <Switch x:Name="estadoSwitch" IsToggled="True"/>
         <Button Text="Guardar"
                 x:Name="ButonGuadar"
                 Clicked="ButonGuadar_Clicked"/>
