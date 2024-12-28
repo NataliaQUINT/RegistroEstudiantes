@@ -32,6 +32,7 @@ public partial class CrearEstudiante : ContentPage
             ApellidoMaterno = ApellidoMaternoEntry.Text,
             Email = EmailEntry.Text,
             Edad = int.Parse(EdadEntry.Text),
+            Estado = true, // en duro
             curso = cursop // clase hija de estudiante
         };
 

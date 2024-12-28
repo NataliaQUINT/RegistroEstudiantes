@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5WW0yYmr3O4=",
+  "dgSpecHash": "TxCDxkccjtM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj",
+  "projectFilePath": "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\natal\\.nuget\\packages\\firebasedatabase.net\\4.2.0\\firebasedatabase.net.4.2.0.nupkg.sha512",
     "C:\\Users\\natal\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
