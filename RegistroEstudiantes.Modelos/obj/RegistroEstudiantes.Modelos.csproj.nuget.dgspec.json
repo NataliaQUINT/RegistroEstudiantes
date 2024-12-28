@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj": {}
+    "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj": {
+    "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj",
+        "projectUniqueName": "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj",
         "projectName": "RegistroEstudiantes.Modelos",
-        "projectPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj",
+        "projectPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj",
         "packagesPath": "C:\\Users\\natal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\obj\\",
+        "outputPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

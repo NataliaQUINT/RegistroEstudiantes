@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\MantenedorEstudiantes\\MantenedorEstudiantes.csproj": {}
+    "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\MantenedorEstudiantes\\MantenedorEstudiantes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\MantenedorEstudiantes\\MantenedorEstudiantes.csproj": {
+    "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\MantenedorEstudiantes\\MantenedorEstudiantes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\MantenedorEstudiantes\\MantenedorEstudiantes.csproj",
+        "projectUniqueName": "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\MantenedorEstudiantes\\MantenedorEstudiantes.csproj",
         "projectName": "MantenedorEstudiantes",
-        "projectPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\MantenedorEstudiantes\\MantenedorEstudiantes.csproj",
+        "projectPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\MantenedorEstudiantes\\MantenedorEstudiantes.csproj",
         "packagesPath": "C:\\Users\\natal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\MantenedorEstudiantes\\obj\\",
+        "outputPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\MantenedorEstudiantes\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -37,32 +37,32 @@
           "net8.0-android34.0": {
             "targetAlias": "net8.0-android",
             "projectReferences": {
-              "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj": {
-                "projectPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj"
+              "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj": {
+                "projectPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj"
               }
             }
           },
           "net8.0-ios18.0": {
             "targetAlias": "net8.0-ios",
             "projectReferences": {
-              "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj": {
-                "projectPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj"
+              "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj": {
+                "projectPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj"
               }
             }
           },
           "net8.0-maccatalyst18.0": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {
-              "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj": {
-                "projectPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj"
+              "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj": {
+                "projectPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj"
               }
             }
           },
           "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj": {
-                "projectPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj"
+              "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj": {
+                "projectPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj"
               }
             }
           }
@@ -336,14 +336,14 @@
         }
       }
     },
-    "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj": {
+    "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj",
+        "projectUniqueName": "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj",
         "projectName": "RegistroEstudiantes.Modelos",
-        "projectPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj",
+        "projectPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\RegistroEstudiantes.Modelos.csproj",
         "packagesPath": "C:\\Users\\natal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\obj\\",
+        "outputPath": "C:\\Users\\natal\\OneDrive\\Escritorio\\ArchivoGIT\\RegistroEstudiantes\\RegistroEstudiantes\\RegistroEstudiantes.Modelos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
