@@ -2,7 +2,6 @@ using Firebase.Database;
 using Firebase.Database.Query;
 using RegistroEstudiantes.Modelos.Modelos;
 using System.Collections.ObjectModel;
-using System.Collections.ObjectModel;
 using System.Security;
 using static System.Net.Mime.MediaTypeNames;
 namespace MantenedorEstudiantes.Vistas;

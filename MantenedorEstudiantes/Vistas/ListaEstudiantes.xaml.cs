@@ -69,7 +69,11 @@ public partial class ListaEstudiantes : ContentPage
 
         if (estudiante != null && !string.IsNullOrEmpty(estudiante.Id))
         {
-            await Navigation.PushAsync(new EditarEstudiante(estudiante.Id));
+            var paginaEdicion = new EditarEstudiante(estudiante.Id);
+            await Navigation.PushAsync( paginaEdicion);
+
+            paginaEdicion.Disappearing += (s, args) => CargarLista();//espera que pag cierre y luego recarga lista
+
         }
         else
         {
