@@ -2,9 +2,7 @@ using RegistroEstudiantes.Modelos.Modelos;
 using Firebase.Database;
 using Firebase.Database.Query;
 
-
 namespace MantenedorEstudiantes.Vistas;
-
 public partial class CrearEstudiante : ContentPage
 {
     FirebaseClient client = new FirebaseClient("https://gestionalumnoss-default-rtdb.firebaseio.com");
