@@ -19,7 +19,7 @@ namespace RegistroEstudiantes.Modelos.Modelos
         public int Edad { get; set; }
         public Curso? curso { get; set; }
         public bool? Estado { get; set; }
-        public string NombreCompleto => $"{PrimerNombre} {ApellidoPaterno}";
-        public string EstadoTexto => Estado.HasValue ? (Estado.Value ? "Activo" : "Inactivo") : "Estado Desconocido";
+        public string NombreCompleto => $"{PrimerNombre} {ApellidoPaterno} {ApellidoMaterno}";
+        public string EstadoTexto => Estado.HasValue ? (Estado.Value ? "Activo" : "Inactivo") : "Estado Desconocido";//operador ternario (if y else en una sola linea)
     }
 }

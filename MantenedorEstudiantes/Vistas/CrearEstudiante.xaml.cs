@@ -39,7 +39,7 @@ public partial class CrearEstudiante : ContentPage
         try // INTENTA
         {
             await client.Child("Estudiantes").PostAsync(estudiante);//guardar en la BD objeto estudiante
-            await DisplayAlert("Éxito", $"El estudiante {estudiante.PrimerNombre} {estudiante.ApellidoPaterno} fue agregado correctamente.", "OK");//envia msj
+            await DisplayAlert("Éxito", $"El estudiante {estudiante.PrimerNombre} {estudiante.ApellidoPaterno} {estudiante.ApellidoMaterno} fue agregado correctamente.", "OK");//envia msj
             await Navigation.PopAsync();//vuelve a ventana anterior
         }
         catch (Exception ex) //CAPTURA 
