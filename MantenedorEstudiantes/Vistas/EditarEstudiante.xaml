@@ -27,7 +27,7 @@
                                 ItemsSource="{Binding ListaCursos}"
                                 BackgroundColor="Transparent"/>
                     </Frame>
-                    <!-- Sección de Información Personal -->
+            <!-- Sección de Información Personal -->
             <Frame BackgroundColor="White" 
                    Padding="15" 
                    CornerRadius="10" 
